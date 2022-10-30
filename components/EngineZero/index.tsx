@@ -1,19 +1,31 @@
 import Image from 'next/image';
 export const EngineZero = () => {
+  const user = true
   return (
-    <div className="flex">
+    <div className="flex items-center justify-between">
       <div className="">
-        <h1 className="text-2xl">
+        <h1 className="text-[40px] font-semibold ">
           Hello <span>👋</span>
         </h1>
-        <h1 className="text-2xl">I&apos;m Ahmadsan</h1>
+        <h1 className="text-[40px] font-semibold">I&apos;m Ahmadsan</h1>
       </div>
       <div className="">
         <div className="relative border border-black rounded-md w-[189px] h-[195px]">
-          <div className="absolute right-24 top-9 border border-black bg-yellow-500 w-[147px] h-[147px] rounded-full"></div>
+          <div className='relative'>
+            <div className='absolute left-[127px] top-[34px] flex flex-col gap-3'>
+              <div className='h-[9px] w-[35px] border border-black'></div>
+              <div className='h-[9px] w-[49px] border border-black'></div>
+              <div className='h-[9px] w-[35px] border border-black'></div>
+              <div className='h-[9px] w-[49px] border border-black'></div>
+              <div className='h-[9px] w-[19px] border border-black'></div>
+              <div className='h-[9px] w-[49px] border border-black'></div>
+            </div>
+          </div>
+          <div className="absolute right-[90px] top-6 border border-black bg-yellow-500 w-[147px] h-[147px] rounded-full"></div>
           <div className="absolute right-20 top-2 border border-black bg-white w-[147px] h-[147px] rounded-full">
             <Image
-              src={`/assets/images/char0.JPG`}
+              className="rounded-full"
+              src={`${!user ? '/assets/images/char0.JPG' : 'https://github.com/ahmad.png'}`}
               alt={'img1'}
               fill
             />

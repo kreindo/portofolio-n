@@ -2,7 +2,7 @@ import { Charo } from '../../components/Charo';
 import { EngineZero } from '../../components/EngineZero';
 export const Homepage = () => {
   return (
-    <div className="mt-10 text-center">
+    <div className="mt-10">
       <Charo />
       <EngineZero />
       <Charo />
