@@ -2,7 +2,7 @@ import Image from 'next/image';
 export const Charo = () => {
   const items: Array<string> = ['a', 'b', 'c', 'd', 'e', 'f'];
   return (
-    <div className="border-[1.5px] rounded-md border-black py-5 px-5">
+    <div className="border-[1.5px] shadow-[0px_4px_4px_rgba(0, 0, 0, 0.25)] rounded-md border-black py-5 px-5">
       <ul className="bg-blue-300 flex justify-center gap-10">
         {items.map((item: any, index: any) => {
           return (
