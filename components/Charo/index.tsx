@@ -12,8 +12,6 @@ export const Charo = () => {
             >
               <Image
                 alt={`${item + index}`}
-                // width="200"
-                // height="200"
                 fill
                 className="absolute rounded-full"
                 src={`https://picsum.photos/200/200?random=${index}`}
