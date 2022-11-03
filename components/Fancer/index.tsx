@@ -1,4 +1,4 @@
-import { FaAnchor, FaBook, FaHome, FaNewspaper, FaUser } from 'react-icons/fa';
+import { FaAnchor, FaBook, FaHome, FaNewspaper, FaUser, FaCode } from 'react-icons/fa';
 export const Fancer = ({ icon }: { icon: string }) => {
   return (
     <div className="group w-full h-[64px]">
@@ -13,6 +13,8 @@ export const Fancer = ({ icon }: { icon: string }) => {
           <FaBook className="group-hover:invert" size={16} />
         ) : icon == 'Content' ? (
           <FaAnchor className="group-hover:invert" size={16} />
+        ) : icon == 'Works' ? (
+          <FaCode className="group-hover:invert" size={16} />
         ) : (
           <></>
         )}
