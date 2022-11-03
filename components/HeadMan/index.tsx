@@ -7,6 +7,7 @@ export const HeadMan = () => {
       {menus.map((menu, index)=>{
         return (<Fancer key={index} icon={menu}/>)
       })}
+      
     </div>
   );
 };
