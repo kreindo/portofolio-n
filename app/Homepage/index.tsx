@@ -7,8 +7,6 @@ export const Homepage = () => {
     <div className="mt-10">
       <Charo />
       <EngineZero />
-      <Charo />
-      <Charo />
       <DaggerT />
     </div>
   );
