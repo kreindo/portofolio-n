@@ -9,8 +9,6 @@ export const EngineZero = ({ className }: { className: string }) => {
         </h1>
         <h1 className="text-[40px] font-semibold">I&apos;m Lorem</h1>
         <Downbad />
-        <Downbad />
-        <Downbad />
       </div>
       <div className="">
         <div className="relative border border-black rounded-md w-[189px] h-[195px]">
