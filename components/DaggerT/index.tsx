@@ -1,6 +1,7 @@
-export const DaggerT = () => {
+// import { Downbad } from "../Downbad";
+export const DaggerT = ({className}:{className:string;}) => {
   return (
-    <div>
+    <div className={className}>
       <h1 className="font-bold">test</h1>
       <section>
         <p className="font-medium">

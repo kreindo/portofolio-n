@@ -1,13 +1,16 @@
-import Image from 'next/image';
-export const EngineZero = () => {
+import Image from 'next/image';import { Downbad } from '../Downbad';
+export const EngineZero = ({ className }: { className: string }) => {
   const user = true;
   return (
-    <div className="flex items-center justify-between">
+    <div className={`flex items-center justify-between ${className}`}>
       <div className="">
         <h1 className="text-[40px] font-semibold ">
           Hello <span>👋</span>
         </h1>
-        <h1 className="text-[40px] font-semibold">I&apos;m Ahmadsan</h1>
+        <h1 className="text-[40px] font-semibold">I&apos;m Lorem</h1>
+        <Downbad />
+        <Downbad />
+        <Downbad />
       </div>
       <div className="">
         <div className="relative border border-black rounded-md w-[189px] h-[195px]">
